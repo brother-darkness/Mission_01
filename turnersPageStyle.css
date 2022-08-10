@@ -1,0 +1,62 @@
+.chatbot {
+    display: flex;
+
+}
+
+body{
+    background-color: white;
+}
+
+/* header */
+header{
+    display: flex;
+    text-align: center;
+    background-color: white;
+    height: 100px;
+    margin-left: 30px;
+    
+}
+
+header img{
+    margin-top: 20px;
+    height: 60px;
+}
+
+.sideButton{
+    margin-left:900px;
+    margin-top: 42px;
+
+}
+
+/* Nav Bar */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #0076BE;
+    
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Lucida Sans';
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #016DB1;
+  }
+
+  main {
+    display: flex;
+    justify-content: center;
+  }
