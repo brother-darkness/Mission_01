@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="turnersPageStyle.css"> 
+    <script type="text/javascript" src="turnersPage.js"></script>
     <title>Turners Chatbot</title>
 </head>
 
@@ -27,13 +28,44 @@
 </nav>
 
 <main>
+    <div id="mainimage">
+        <img src="main.png" alt="main" />
+    </div>
     <section id="Content">
         <!--Content Section-->
         <div class="chatbot">
-            <iframe width="350" height="430" allow="microphone;" src="https://console.dialogflow.com/api-client/demo/embedded/10381b16-400b-47e8-affd-92509fc96b70"></iframe> 
+            <iframe id="chat" width="350" height="430" allow="microphone;" src="https://console.dialogflow.com/api-client/demo/embedded/10381b16-400b-47e8-affd-92509fc96b70"></iframe> 
         </div>
+        <button id="toggle" onclick="myFunction()">Chat with us!</button>
     </section>
 </main>
+
+<footer id="footer">
+    <div id="cars">
+        <h3>CARS</h3>
+        <p>How to buy</p>
+        <p>Sell your car</p>
+        <p>Finances & Insurances</p>
+        <p>Auctions & Events</p>
+        <p>Buyer & seller fees</p>
+    </div>
+    <div id="finances">
+        <h3>FINANCES AND INSURANCE</h3>
+        <p>Finance & Homepage</p>
+        <p>Car & personal finance</p>
+        <p>Loan calculator</p>
+        <p>Car insurance</p>
+        <p>Mechanical breakdown insurance</p>
+    </div>
+    <div id="searchfor">
+        <h3>SEARCH FOR</h3>
+        <p>Cars</p>
+        <p>Trucks and machinery</p>
+        <p>Damaged & end of life cars</p>
+        <p>Boats & marine</p>
+        <p>Motorcyles & scooters</p>
+    </div>
+</footer>
     
 </body>
 </html>

@@ -58,5 +58,47 @@ ul {
 
   main {
     display: flex;
+    flex-direction: column;
+    justify-content: flex end;
+  }
+
+  iframe {
+    position: fixed;
+    top: 37.5%;
+    right: 0%;
+  }
+
+  #toggle {
+    position: fixed;
+    top: 90%;
+    right: 0%;
+    height: 5em;
+    width: 5em;
+    color: #fff;
+    background-color: #016DB1;
+    border-radius: 80%;
+  }
+
+  #toggle:hover {
+    background-color: #3487bb;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: row;
     justify-content: center;
+    background-color: rgb(148, 148, 148);
+    color: #fff;
+  }
+
+  #cars {
+    margin: 0px 50px 0px 50px;
+  }
+
+  #finances {
+    margin: 0px 50px 10px 50px;
+  }
+
+  #searchfor {
+    margin: 0px 50px 10px 50px;
   }
